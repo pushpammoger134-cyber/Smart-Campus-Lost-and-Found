@@ -1,0 +1,25 @@
+
+# Local database configuration
+/db.php
+
+# Database backups containing real user data
+*.sql
+
+# Allow safe database structure file
+!schema.sql
+
+# Uploaded photographs
+/uploads/
+
+# Development-only files
+/test_db.php
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Editor and operating system files
+.vscode/
+.DS_Store
+Thumbs.db
